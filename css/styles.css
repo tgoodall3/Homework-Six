@@ -1,0 +1,866 @@
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@media only screen and (max-width: 900px) {
+  nav {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .links {
+    position: fixed;
+    top: 50px;
+    left: 80px;
+  }
+  nav .logo {
+    position: fixed;
+    left: 210px;
+    top: 35px;
+  }
+  nav .bottom {
+    position: fixed;
+    top: 120px;
+    width: 400px;
+  }
+  .tours .rowOne {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tours .rowTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tours .RowThree {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .copyright {
+    margin-left: 50px;
+  }
+}
+nav {
+  height: 0;
+  top: 50px;
+  left: 100px;
+  max-width: 100%;
+  position: fixed;
+  background-color: transparent;
+  width: 800px;
+  max-width: 800px;
+  min-width: 100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .links {
+  height: 42px;
+  width: 300px;
+  white-space: nowrap;
+  margin-top: 40px;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+nav .links span {
+  margin-left: 5px;
+  color: black;
+}
+nav .logo {
+  border: black 2px solid;
+  height: 42px;
+  width: 80px;
+}
+nav .logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 17px;
+  font-size: 20px;
+  font-family: gillsansbold;
+  white-space: nowrap;
+  color: black;
+  width: 92px;
+  height: 42px;
+}
+
+.bottom {
+  width: 90%;
+  border-bottom: 2px black solid;
+  position: fixed;
+  top: 80px;
+  left: 60px;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+.hero .image {
+  width: 981px;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../images/tours-header\ \(1\).jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/tours-header\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero .header {
+  position: absolute;
+  top: 110px;
+}
+.hero .header span {
+  font-size: 60px;
+  font-family: primanovacondensed;
+  color: white;
+}
+
+footer {
+  margin-top: 90px;
+  padding: 0;
+  height: 100px;
+  width: 120%;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .copyright span {
+  font-family: gillsansbold;
+  font-size: 12px;
+  color: white;
+}
+footer .logo {
+  border: white 2px solid;
+  height: 42px;
+  width: 80px;
+}
+footer .logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 17px;
+  font-size: 20px;
+  font-family: gillsansbold;
+  white-space: nowrap;
+  color: white;
+  width: 92px;
+  height: 42px;
+}
+footer .socials img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  width: 150px;
+}
+
+.tours {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+}
+.tours .rowOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.tours .rowOne .isreal {
+  position: relative;
+}
+.tours .rowOne .isreal .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowOne .isreal .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .rowOne .isreal .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowOne .isreal .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowOne .isreal .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowOne .isreal .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowOne .isreal .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowOne .USA {
+  position: relative;
+}
+.tours .rowOne .USA .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowOne .USA .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .rowOne .USA .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowOne .USA .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowOne .USA .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowOne .USA .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowOne .USA .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowOne .australia {
+  position: relative;
+}
+.tours .rowOne .australia .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowOne .australia .text {
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  font-family: primanovacondensed;
+}
+.tours .rowOne .australia .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowOne .australia .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowOne .australia .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowOne .australia .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowOne .australia .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.tours .rowTwo .newZ {
+  position: relative;
+}
+.tours .rowTwo .newZ .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowTwo .newZ .text {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  font-family: primanovacondensed;
+}
+.tours .rowTwo .newZ .text span {
+  font-size: 60px;
+  color: white;
+  white-space: nowrap;
+}
+.tours .rowTwo .newZ .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowTwo .newZ .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowTwo .newZ .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowTwo .newZ .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowTwo .france {
+  position: relative;
+}
+.tours .rowTwo .france .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowTwo .france .text {
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  font-family: primanovacondensed;
+}
+.tours .rowTwo .france .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowTwo .france .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowTwo .france .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowTwo .france .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowTwo .france .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowTwo .egypt {
+  position: relative;
+}
+.tours .rowTwo .egypt .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowTwo .egypt .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .rowTwo .egypt .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowTwo .egypt .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowTwo .egypt .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowTwo .egypt .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowTwo .egypt .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .RowThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.tours .RowThree .japan {
+  position: relative;
+}
+.tours .RowThree .japan .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .RowThree .japan .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .RowThree .japan .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .RowThree .japan .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .RowThree .japan .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .RowThree .japan .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .RowThree .japan .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .RowThree .canada {
+  position: relative;
+}
+.tours .RowThree .canada .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .RowThree .canada .text {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  font-family: primanovacondensed;
+}
+.tours .RowThree .canada .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .RowThree .canada .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .RowThree .canada .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .RowThree .canada .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .RowThree .canada .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .RowThree .UAE {
+  position: relative;
+}
+.tours .RowThree .UAE .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .RowThree .UAE .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .RowThree .UAE .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .RowThree .UAE .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .RowThree .UAE .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .RowThree .UAE .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .RowThree .UAE .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.tour {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 170px;
+}
+.tour .TourHead {
+  position: relative;
+  margin-bottom: 20px;
+}
+.tour .TourHead .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tour .TourHead .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 980px;
+  height: 413px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tour .TourHead .text span {
+  position: absolute;
+  top: 60px;
+  font-size: 80px;
+  left: 150px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tour .ImgRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 1070px;
+  margin: 0 auto;
+}
+.tour .ImgRow img {
+  width: 298px;
+  height: 347px;
+}
+.tour .tour-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 150px;
+}
+.tour .tour-content .dayOne {
+  margin-bottom: 20px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+.tour .tour-content .dayOne .header {
+  margin-bottom: 15px;
+}
+.tour .tour-content .dayOne .header span {
+  font-family: primanovacondensed;
+  font-size: 60px;
+  border-bottom: 2px black solid;
+}
+.tour .tour-content .dayOne .text {
+  margin-bottom: 40px;
+}
+.tour .tour-content .dayOne .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.tour .tour-content .dayTwo {
+  margin-bottom: 20px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+.tour .tour-content .dayTwo .header {
+  margin-bottom: 15px;
+  font-size: 60px;
+}
+.tour .tour-content .dayTwo .header span {
+  font-family: primanovacondensed;
+  border-bottom: 2px black solid;
+}
+.tour .tour-content .dayTwo .text {
+  margin-bottom: 40px;
+}
+.tour .tour-content .dayTwo .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.tour .tour-content .dayThree {
+  margin-top: 20px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+.tour .tour-content .dayThree .header {
+  margin-bottom: 15px;
+  font-size: 60px;
+}
+.tour .tour-content .dayThree .header span {
+  font-family: primanovacondensed;
+  border-bottom: 2px black solid;
+}
+.tour .tour-content .dayThree .text {
+  margin-bottom: 40px;
+}
+.tour .tour-content .dayThree .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
